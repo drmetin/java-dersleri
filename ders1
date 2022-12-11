@@ -1,0 +1,13 @@
+public class Main {
+    public static void main(String[] args) {
+        double dbl=23.5;
+        int sayi=(int) dbl;
+        System.out.println(sayi);
+
+        byte byt=(byte) sayi;
+        System.out.println(byt);
+
+        sayi=130;
+        byt=(byte) sayi;
+        System.out.println(sayi);
+        
